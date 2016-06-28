@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24155" started-at="2016-06-10T13:00:05Z" finished-at="2016-06-10T13:00:29Z">
+    <groups>
+      <group name="p2">
+        <method signature="TestNg_Batches_Groups.EnterToSearch()[pri:0, instance:TestNg_Concepts.TestNg_Batches_Groups@309239]" name="EnterToSearch" class="TestNg_Concepts.TestNg_Batches_Groups"/>
+      </group> <!-- p2 -->
+      <group name="p1">
+        <method signature="TestNg_Batches_Groups.launchbrowser()[pri:0, instance:TestNg_Concepts.TestNg_Batches_Groups@309239]" name="launchbrowser" class="TestNg_Concepts.TestNg_Batches_Groups"/>
+      </group> <!-- p1 -->
+      <group name="browser">
+        <method signature="TestNg_Batches_Groups.launchbrowser()[pri:0, instance:TestNg_Concepts.TestNg_Batches_Groups@309239]" name="launchbrowser" class="TestNg_Concepts.TestNg_Batches_Groups"/>
+      </group> <!-- browser -->
+      <group name="search data">
+        <method signature="TestNg_Batches_Groups.EnterToSearch()[pri:0, instance:TestNg_Concepts.TestNg_Batches_Groups@309239]" name="EnterToSearch" class="TestNg_Concepts.TestNg_Batches_Groups"/>
+      </group> <!-- search data -->
+    </groups>
+    <test name="Default test" duration-ms="24155" started-at="2016-06-10T13:00:05Z" finished-at="2016-06-10T13:00:29Z">
+      <class name="TestNg_Concepts.TestNg_Batches_Groups">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:TestNg_Concepts.TestNg_Batches_Groups@309239]" name="launchbrowser" duration-ms="17056" started-at="2016-06-10T18:30:05Z" finished-at="2016-06-10T18:30:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="EnterToSearch()[pri:0, instance:TestNg_Concepts.TestNg_Batches_Groups@309239]" name="EnterToSearch" duration-ms="7065" started-at="2016-06-10T18:30:22Z" depends-on-methods="TestNg_Concepts.TestNg_Batches_Groups.launchbrowser" finished-at="2016-06-10T18:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterToSearch -->
+      </class> <!-- TestNg_Concepts.TestNg_Batches_Groups -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
