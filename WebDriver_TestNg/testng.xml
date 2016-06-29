@@ -1,26 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" >
-  <test name="p1 Test">
-  <groups>
-     <run>
-     <include name="p1"/>
-     </run>
-     </groups>
+<suite name="Suite">
+<listeners>
+        <listener class-name="Topic20_TestNg_FailedTestcases_Execution.RetryListener"/>
+  </listeners>
+  <test name="Test">
     <classes>
-      <class name="TestNg_Concepts.TestNg_Batches_Groups"/>
+      <class name="Topic20_TestNg_FailedTestcases_Execution.Example1_TestNg"/>
     </classes>
   </test> <!-- Test -->
-  <test name="p2 test">
-  <groups>
-  <run>
-  <include name="p2"/>
-  </run>
-  </groups>
-  <classes>
-  <class name="TestNg_Concepts.TestNg_Batches_Groups"/>
-  </classes>
-  
-
-  </test>
 </suite> <!-- Suite -->

@@ -39,7 +39,8 @@ public class Example1_TestNg {
 		WebElement pagetext=driver.findElement(By.xpath("//form[@id='PWResetForm']//div//label"));
 		String pagetitle=pagetext.getText();
 		System.out.println(pagetitle);
-		Assert.assertEquals("Enter the email address or phone number associated with your account.",pagetitle);
+		Assert.assertEquals("Enter the email address or phone number associated with you",pagetitle);
+	
 		
 		
 	}
