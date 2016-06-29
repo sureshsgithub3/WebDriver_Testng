@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Topic20_TestNg_FailedTestcases_Execution.Example1_TestNg">
+      <class name="Topic9_Timeout_Testng.Example1_Timeout">
         <methods>
-          <include name="Setup"/>
-          <include name="VerifyForgotPassword"/>
+          <include name="testcase1"/>
         </methods>
-      </class> <!-- Topic20_TestNg_FailedTestcases_Execution.Example1_TestNg -->
+      </class> <!-- Topic9_Timeout_Testng.Example1_Timeout -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -3,6 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
     <listener class-name="Topic20_TestNg_FailedTestcases_Execution.RetryListener"/>
+    <listener class-name="Topic21_Testng_Test_Run_Count_after_retry.Example1_TestListeners"/>
   </listeners>
   <test name="Test(failed)">
     <classes>
@@ -10,7 +11,6 @@
         <methods>
           <include name="Setup"/>
           <include name="VerifyForgotPassword"/>
-          <include name="verifyLoginPageText"/>
         </methods>
       </class> <!-- Topic20_TestNg_FailedTestcases_Execution.Example1_TestNg -->
     </classes>
