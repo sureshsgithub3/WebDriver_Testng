@@ -25,7 +25,7 @@ public class Example1_TestNg {
 		System.out.println("==>Verify login page Text <==");
 		WebElement element=driver.findElement(By.xpath("//body[@id='pagekey-uno-reg-guest-home']//div/h2"));
 		String pagetext=element.getText();
-		System.out.println(pagetext);
+		//System.out.println(pagetext);
 		Assert.assertEquals(pagetext, "Get started - it's free.");
 		
 	}
@@ -38,7 +38,7 @@ public class Example1_TestNg {
 		element.click();
 		WebElement pagetext=driver.findElement(By.xpath("//form[@id='PWResetForm']//div//label"));
 		String pagetitle=pagetext.getText();
-		System.out.println(pagetitle);
+	//	System.out.println(pagetitle);
 		Assert.assertEquals("Enter the email address or phone number associated with you",pagetitle);
 	
 		

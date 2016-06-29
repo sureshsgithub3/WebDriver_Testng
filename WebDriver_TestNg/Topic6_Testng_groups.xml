@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="sample suite" verbose="1">
+  <test name="groups Test">
+    <groups>
+     <run>
+     <include name="Smoke"/>
+     </run>
+     </groups>
+   <classes>
+     <class name="Topic6_TestNg_Groups.Example1_Groups"/>
+     </classes>
+    </test>
+   </suite>    

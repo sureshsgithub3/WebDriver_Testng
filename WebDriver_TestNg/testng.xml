@@ -3,6 +3,7 @@
 <suite name="Suite">
 <listeners>
         <listener class-name="Topic20_TestNg_FailedTestcases_Execution.RetryListener"/>
+        <listener class-name="Topic21_Testng_Test_Run_Count_after_retry.Example1_TestListeners"/>
   </listeners>
   <test name="Test">
     <classes>

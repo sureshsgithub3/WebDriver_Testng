@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="sample suite" versbose="1">
+  <test name="Multiple classes">
+    <classes>
+      <class name="Topic5_Testng_MultipleClasses_Execute.Example1_DemoOne"/>
+      <class name="Topic5_Testng_MultipleClasses_Execute.Example2_DemoTwo"/>
+    </classes>
+  </test>
+</suite>      
