@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Report Ng Test"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="1.074">
+  <properties />
+            <testcase name="Testcase1" time="1.074" classname="ReportNg_Reports.Example1_ReportNg">
+                <failure type="org.testng.internal.thread.ThreadTimeoutException"
+                  message="Method org.testng.internal.TestNGMethod.Testcase1() didn&apos;t finish within the time-out 1000"
+              >
+<![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method org.testng.internal.TestNGMethod.Testcase1() didn't finish within the time-out 1000
+  java.lang.ThreadGroup.remove(Unknown Source)
+  java.lang.ThreadGroup.threadTerminated(Unknown Source)
+  java.lang.Thread.exit(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

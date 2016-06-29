@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Report Ng Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.000">
+  <properties />
+  
+  
+            <testcase name="Testcase4" time="0.000" classname="ReportNg_Reports1.Example2_ReportNg" />
+                <testcase name="Testcase3" time="0.000" classname="ReportNg_Reports1.Example2_ReportNg" />
+      
+</testsuite>
