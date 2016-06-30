@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="sample suite" verbose="1">
+<listeners>
+   <listener class-name="Topic11_Listeners.Listenersclass"/>
+</listeners>
+<test name="listeners test">
+<classes>
+  <class name="Topic11_Listeners.Example1">
+  <methods>
+  <include name="Testcase"/>
+  <include name="dividedbyzero"/>
+  <include name="methodtoskip"/>
+  </methods>
+  </class>
+</classes>
+</test>
+</suite>    
