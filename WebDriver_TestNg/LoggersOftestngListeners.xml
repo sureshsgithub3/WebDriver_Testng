@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="sample listeners suite" verbose ="1">
+  <listeners>
+  <listener class-name="TestNg12_Listeners.ListenerClass1"/>
+  </listeners>
+  <test name="Testng loggin using listeners concepts">
+  <classes>
+    <class name="TestNg12_Listeners.Example1_Testclass">
+    <methods> 
+     <include name="AddNumbers"/>
+     <include name="Didvidedbyzero"/>
+     <include name="Methodtoskip"/>
+     
+     
+     </methods>
+     </class>
+    </classes> 
+  </test>
+ </suite> 
+     
